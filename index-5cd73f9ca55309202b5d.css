@@ -3606,6 +3606,19 @@ a:focus {
   width: 0;
   height: 0;
 }
+.b-regist-error {
+  color: red;
+  position: absolute;
+  width: 300px;
+  margin-left: 10px;
+}
+.b-regist-box-btn {
+  width: 200px;
+  margin: 20px auto;
+}
+.b-regist-box-btn button {
+  margin-left: 15px;
+}
 .b-input {
   height: 30px;
   line-height: 30px;
@@ -3623,6 +3636,12 @@ a:focus {
 .b-select option {
   height: 30px;
   line-height: 30px;
+}
+.b-border-line {
+  width: 100%;
+  margin: 20px 0 ;
+  border-top: 2px dashed #9d9d9d;
+  padding-top: 30px;
 }
 .b-header .col-md-4 {
   height: 30px;
@@ -4208,4 +4227,4 @@ a:focus {
 }
 
 
-/*# sourceMappingURL=index-df957e2091ec1a4685a9.css.map*/
+/*# sourceMappingURL=index-5cd73f9ca55309202b5d.css.map*/
