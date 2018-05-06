@@ -926,17 +926,13 @@ p.error {
 }
 .menu ul li {
   cursor: pointer;
-  padding: 15px 15px 15px 42px;
-  color: #4D4D4D;
+  padding: 15px;
+  /*color: #4D4D4D;*/
   font-size: 14px;
   font-weight: 700;
   width: 100%;
   border-bottom: 1px solid #CCC;
   position: relative;
-}
-.menu ul li span {
-  font-size: 20px;
-  color: #f39800;
 }
 .menu ul li a {
   color: #4D4D4D ;
@@ -956,6 +952,8 @@ p.error {
   font-size: 20px;
   height: 50px;
   line-height: 50px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
 }
 .b-login {
   width: 100%;
@@ -1030,9 +1028,9 @@ p.error {
   table-layout: fixed;
 }
 .upload {
-  width: 100%;
+  /* width: 100px;
   border: 1px solid #e6e6e6;
-  background: #fff;
+  background: #fff;*/
 }
 .upload ul {
   width: 50%;
@@ -1055,14 +1053,14 @@ p.error {
   color: #00A995;
 }
 .upload .upload-add {
-  width: 75%;
-  height: 50px;
-  margin: 30px auto;
-  background: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  /* width: 75%;
+    height:50px;
+    margin: 30px auto;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;*/
 }
 .upload .upload-add .upload-bg {
   width: 80px;
@@ -1088,6 +1086,27 @@ p.error {
   margin: -23px 0 0 0;
   color: red;
   cursor: pointer;
+}
+.a-operation-box span {
+  cursor: pointer;
+}
+.a-preview-col {
+  line-height: 40px;
+}
+.a-preview-col label {
+  margin-right: 5px;
+}
+.a-nav-ul {
+  height: 30px;
+}
+.a-nav-ul li {
+  line-height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.a-nav-ul .active {
+  color: #f39800 ;
+  border-bottom: 2px solid #f39800;
 }
 .react-loading-spinner{
   position: fixed;
@@ -1173,4 +1192,4 @@ p.error {
 }
 
 
-/*# sourceMappingURL=index-477e744f9600a865b3ca.css.map*/
+/*# sourceMappingURL=index-f0e27d7dcadd59af257a.css.map*/
