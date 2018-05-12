@@ -1166,6 +1166,9 @@ p.error {
   font-size: 30px;
   margin-top: 10px;
 }
+.react-bootstrap-table-page-btns-ul.pagination {
+  float: right;
+}
 .react-loading-spinner{
   position: fixed;
   top:0;
@@ -1250,4 +1253,4 @@ p.error {
 }
 
 
-/*# sourceMappingURL=index-7d6355aca29312d40282.css.map*/
+/*# sourceMappingURL=index-c417b8786d9920f5eeb5.css.map*/
