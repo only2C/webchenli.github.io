@@ -1169,6 +1169,15 @@ p.error {
 .react-bootstrap-table-page-btns-ul.pagination {
   float: right;
 }
+.a-tab-button span {
+  padding: 4px 8px;
+  cursor: pointer;
+  border: 1px solid  #46b8da;
+  user-select: none;
+  color: #fff;
+  background-color: #5bc0de;
+  border-radius: 5px;
+}
 .react-loading-spinner{
   position: fixed;
   top:0;
@@ -1253,4 +1262,4 @@ p.error {
 }
 
 
-/*# sourceMappingURL=index-18c397befc0b26f2f413.css.map*/
+/*# sourceMappingURL=index-ae3faec46c86ac817ac1.css.map*/
