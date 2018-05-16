@@ -1169,6 +1169,12 @@ p.error {
 .react-bootstrap-table-page-btns-ul.pagination {
   float: right;
 }
+.react-bs-table table tr {
+  outline: none;
+}
+.react-bs-table table tr td {
+  outline: none;
+}
 .a-tab-button span {
   padding: 4px 8px;
   cursor: pointer;
@@ -1262,4 +1268,4 @@ p.error {
 }
 
 
-/*# sourceMappingURL=index-ae3faec46c86ac817ac1.css.map*/
+/*# sourceMappingURL=index-3efdeee485b9341aa19c.css.map*/
